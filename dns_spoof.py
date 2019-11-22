@@ -1,4 +1,3 @@
-#import scapy.all as scapy
 from scapy.all import *
 import os
 from netfilterqueue import NetfilterQueue
@@ -6,8 +5,8 @@ import sys
 import argparse
 
 if len(sys.argv)!=3:
-    print('Usage is ./dns_responder.py ip site')
-    print('Example - ./dns_responder.py 192.168.1.1 www.google.com')
+    print('Usage is ./dns_spoof.py ip site')
+    print('Example - ./dns_spoof.py 192.168.1.1 www.google.com')
     sys.exit(1)
 
 def ip_table():
