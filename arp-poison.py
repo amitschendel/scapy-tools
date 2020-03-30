@@ -51,7 +51,3 @@ class func(object):
 
 client=func()
 client.init_attack()
-    
-
-
-
